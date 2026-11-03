@@ -4,8 +4,8 @@ Ce dossier contient une version autonome du site, sans React ni compilation : `i
 
 ## Ouvrir dans Visual Studio Code
 
-1. Décompressez l’archive et ouvrez le dossier `github-pages` dans VS Code.
-2. Pour un aperçu fidèle avec les images et la carte, lancez **Live Server** sur `index.html`, ou démarrez un serveur local depuis ce dossier :
+1. Décompressez l’archive puis, dans VS Code, choisissez **Fichier → Ouvrir un dossier** et sélectionnez le dossier extrait qui contient `index.html`, `styles.css`, `script.js` et `assets/`.
+2. Pour un aperçu fidèle avec les images et la carte, lancez **Live Server** sur `index.html`, ou démarrez un serveur local depuis le dossier ouvert :
 
 ```bash
 python -m http.server 8000
